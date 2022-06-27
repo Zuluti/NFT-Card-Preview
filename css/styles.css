@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #0d1a2d;
+}
+
+hr{
+    margin: 0 auto 0 auto;
+    border: 0;
+    height: 0;
+    border-top: 1px solid grey;
+    width: 90%;
+}
+
+.color-text{
+    margin: 10px 0 10px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.nft-value{
+    color: hsl(178, 100%, 50%);
+    font-weight: 300;
+    margin: 10px 0 10px;
+    padding-right: 150px;
+}
+
+.container{
+background-color: #15273f;
+width: 350px;
+height: 600px;
+margin: 100px auto 0 auto;
+border-radius: 10px;
+text-align: center;
+}
+
+.nft-image{
+    margin-top:20px;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.nft-infos{
+    padding: 5%;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+.nft-days{
+    text-align: right;
+    margin: 10px 0 10px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.price{
+    display: flex;
+    
+}
+
+/* IMAGE AVATAR */
+.image-section{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.image-avatar{
+    
+    border-radius: 100%;
+    border: 1px solid white;
+    width: 11%;
+    height: 11%;
+    margin-right: 20px;
+}
+
+span{
+    color: white;
+}
+
+/* ATTRIBUTION */
+
+.attribution{
+    margin-top: 200px;
+    color: white;
+}
